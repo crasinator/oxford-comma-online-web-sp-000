@@ -18,9 +18,10 @@ def oxford_comma(array)
     array.insert(1, ", ")
     array.insert(3, ", ")
     array.insert(5, ", ")
-   if array.count >
-  
-  count = 0 
+   if array.count > 9 
+    array.insert(7, ", ")
+    array.insert(9, ", ")
+  end 
     var = array.join
       return var 
   end 
