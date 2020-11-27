@@ -18,7 +18,7 @@ def oxford_comma(array)
     array.insert(1, ", ")
     array.insert(3, ", ")
     array.insert(5, ", ")
-  tricky = array.count - 1
+   if array.count >
   
   count = 0 
     var = array.join
